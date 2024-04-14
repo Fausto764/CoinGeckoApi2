@@ -1,0 +1,64 @@
+
+.appContainer {
+  width: 95vw;
+  min-height: 100vh;
+  padding: 1rem 2rem;
+}
+.headerContainer {
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 2rem;
+
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4rem;
+    list-style: none;
+
+    li{
+        width: 8rem;
+        text-align: center;
+    }
+    button{
+        outline: none;
+        border: none;
+        background-color: #fff;
+    }
+  }
+}
+
+.listContainer{
+    width: 100%;
+    height: 100%;
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+
+        li{
+            width : 100%;
+            height: 7rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 8rem;
+            border-bottom: 1px solid violet;
+
+            img{
+                width: 2.5rem;
+                height: 2.5rem;
+                max-width: 2.5rem;
+            }
+            span{
+                width: 5rem;
+                text-align: center;
+            }
+        }
+    }
+}
